@@ -9,7 +9,7 @@ export const VerCatalogo = ({cursos})=>{
   
   return ( 
     
-        <div>hola</div>
+        <div>hola </div>
 
            
        

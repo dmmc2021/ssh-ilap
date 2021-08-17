@@ -1,18 +1,18 @@
 import React, {useState, useEffect} from "react";
-import {VerCatalogo} from "../VerCatalogo/VerCatalogo.jsx";
+import {VerAreas} from "../VerCatalogo/VerAreas.jsx";
 import store from "../../firebase/firebase.js";
 
-export const ContainerCat=()=>{
-    const[cursos, setCursos] = useState([]);
+export const ContainerArea=()=>{
+    const[areas, setAreas] = useState([]);
 
     useEffect(()=>{
-        store.collection("catalogo")
+        store.collection("areas")
         .onSnapshot(snap=>{
             const documents=[];
             snap.forEach(doc=>{
             documents.push({id:doc.id, ...doc.data() })
         });
-        setCursos(documents)
+        setAreas(documents)
     })
 }, [])
 
@@ -21,8 +21,8 @@ export const ContainerCat=()=>{
     return(
         <div className="vitrina">
             {
-                cursos.map((cursos)=>(
-                    <VerCatalogo key = {cursos.id} cursos={cursos} />
+                areas.map((areas)=>(
+                    <VerAreas key = {areas.id} areas={areas} />
                 ))
             }
         </div>
@@ -33,4 +33,4 @@ export const ContainerCat=()=>{
 
 }
 
-export default ContainerCat;
+export default ContainerArea;

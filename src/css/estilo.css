@@ -842,7 +842,7 @@ select > option{
 /*SOCIAL*/
 
 .social{
-    background-color: #999595;
+    background-color: #f38115;
     height: 110px;
     display: flex;
     flex-direction: column;
@@ -868,13 +868,15 @@ select > option{
 .social-flex{
     display: flex;
     justify-content: center;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+    color: #2c303b;
 }
 
 
 .twitter{
     margin-left: 150px;
     margin-right: 150px;
+    color: #2c303b;
     
 }
 
@@ -883,6 +885,8 @@ select > option{
     margin-bottom: 5px;
     color: #d9d7df;
 }
+
+
 
 .ref-moodle{
     font-size: small;

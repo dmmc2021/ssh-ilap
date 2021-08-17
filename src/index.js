@@ -12,6 +12,8 @@ import CursoDiplo from "./components/CursoDiplo/CursoDiplo.jsx"
 import Social from "./components/Social/Social.jsx"
 /*import Pago from "./components/Pago/Pago.jsx"*/
 /*import ContainerCat from "./components/VerCatalogo/ContainerCat.jsx"*/
+/*import ActzCatalogo from "./components/VerCatalogo/ActzCatalogo.jsx"*/
+/*import ContainerArea from "./components/VerCatalogo/ContainerArea.jsx"*/
 
 
 import "./css/estilo.css";
