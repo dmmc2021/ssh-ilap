@@ -57,7 +57,7 @@ const CrearNoticia = () => {
     
      <div className="contenedorN">
         <div className="tit-crear-n">
-          <h2>Formulario para la creación de noticias</h2>
+          <h2>Creación de noticias</h2>
         </div>
         <div style={{ paddingLeft: "30px", paddingRight: "30px" }}>
           <Form>
@@ -88,7 +88,7 @@ const CrearNoticia = () => {
             </Form.Group>
           </Form>
           <div className="btn-not">
-            <Button variant='primary' onClick={() => handlerClick()}>
+            <Button variant='primary' style={{background:"#2c303b"}} onClick={() => handlerClick()}>
               Crear Noticia
             </Button>
           </div>

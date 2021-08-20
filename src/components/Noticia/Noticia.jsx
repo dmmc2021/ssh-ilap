@@ -4,7 +4,7 @@ export const Noticia = ({noticia})=>{
   const { titulo, autor, contenido, fecha, image} = noticia
   return ( 
     <section className="noticia-ddia">
-    <h4><u>Noticia del día</u></h4>
+    <h5>NOTICIA DEL DIA</h5>
     <div className="caja-not" id="noticia-id">
     <div className="caja1">
       <div className="title-not">
